@@ -24,8 +24,7 @@ header{
     height: 40px;
     /* background-color: rgb(34,193,195);
     background: linear-gradient(90deg, rgba(34,193,195,1) 1%, rgba(253,187,45,1) 100%); */
-    background: rgb(209,22,22);
-    background: linear-gradient(270deg,rgba(0,5,255,1)  -10%,  rgba(209,22,22,1) 100%);
+    background-color: rgb(19, 184, 184);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: fixed;
@@ -504,8 +503,7 @@ marquee #dis{
     height: 200px;
     /* background-color: rgb(34,193,195);
     background: linear-gradient(90deg, rgba(34,193,195,1) 1%, rgba(253,187,45,1) 100%); */
-    background: rgb(209,22,22);
-    background: linear-gradient(90deg,rgba(0,5,255,1)  -10%,  rgba(209,22,22,1) 100%);
+    background-color: aqua;
     position: relative;
     display: grid;
     border-radius: 12px;
@@ -516,11 +514,11 @@ marquee #dis{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .3);
 }
 
-.product-area .product-list div h2{
+.product-area .product-list div h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 11px;
-    background-color: rgb(234, 57, 21);
-    color: rgba(19, 10, 10, 0.979);
+    background-color: rgb(0, 0, 0);
+    color: rgb(251, 242, 242);
     display: inline-block;
     position: absolute;
     top: 0;
@@ -552,8 +550,8 @@ marquee #dis{
 .product-area .product-list div h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
-    background-color: rgb(37, 30, 235);
-    color: rgba(0, 0, 0, 0.878);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 250, 250);
     display: inline-block;
     position: absolute;
     right: 0;
@@ -571,7 +569,7 @@ marquee #dis{
     font-family: 'Times New Roman', Times, serif;
 }
 .product-area .product-list div #main{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 12px;
     text-decoration: line-through;
 }
@@ -580,7 +578,7 @@ marquee #dis{
     position: absolute;
     left: 55px;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .product-area .product-list div button{
     padding: 3px 15px;
@@ -589,16 +587,16 @@ marquee #dis{
     left: 27%;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    /* background-color: rgb(34,193,195);
-    background: linear-gradient(270deg, rgba(34,193,195,1) 1%, rgba(253,187,45,1) 100%); */
-    background: rgb(209,22,22);
-    background: linear-gradient(270deg,rgba(0,5,255,1)  -10%,  rgba(209,22,22,1) 100%);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(232, 225, 225);
     border-radius: 7px;
 }
 
 /* Product Hover Effect */
 .product-area .product-list div:hover{
     transform: scale(1);
+    background: transparent;
 }
 
 
@@ -782,7 +780,7 @@ footer .right-side .pyment-system{
 footer .right-side .pyment-system h3{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
-    background-color: rgb(189, 21, 21);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -799,7 +797,7 @@ footer .right-side .social-media{
     margin-top: 5px;
 }
 footer .right-side .social-media h3{
-    background-color: rgb(181, 21, 21);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding-bottom: 0px !important;
     margin-bottom: 5px;
@@ -822,7 +820,7 @@ footer .right-side .email{
 footer .right-side .email h4{
     padding-bottom: 0px;
     font-weight: bold;
-    background-color: rgb(182, 17, 17);
+    background-color: rgb(0, 0, 0);
     color: white;
     width: 40px;
 }
