@@ -202,7 +202,7 @@ header .header-info .form-class #toggle-search:checked ~ .fa-cart-plus{
     text-align: left;
     padding: 5px 8px;
     color: black;
-    background-color: rgb(46, 247, 6);
+    background-color: rgb(27, 198, 198);
     border: 1px solid black;
     border-radius: 20px;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, .5),
@@ -226,7 +226,7 @@ header .header-info .form-class #toggle-search:checked ~ .fa-cart-plus{
 
 
 .main-side-bar .list ul li a:hover{
-    background-color: rgb(10, 29, 110);
+    background-color: rgb(30, 67, 233);
     color: white;
     border: 1px solid white;
     transform: scale(1);
@@ -810,7 +810,8 @@ footer .right-side .email span{
     padding-bottom: 5px;
 }
 footer .right-side .social-media .social-media-icon a i{
-   margin-right: 10px;
+    color: rgb(8, 72, 17);
+    margin-right: 10px;
     margin-bottom: 5px;
     transition: .5s;
 }
@@ -850,7 +851,7 @@ footer .fa-copyright span{
 
 /* footer hover effect */
 footer .left-side ul li a:hover{
-    background-color: rgba(0,5,255,1);
+    background-color: rgb(17, 131, 131);
     color: white;
     border-radius: 5px;
 }
