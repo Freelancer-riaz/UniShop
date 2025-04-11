@@ -11,9 +11,9 @@
     box-sizing: border-box;
 }
  body{
-    /* position: relative; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
+    padding-top: 60px;
 } 
 
 /* header */
@@ -28,9 +28,11 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: fixed;
+    margin-bottom: 20px;
     top: 0;
     z-index: 1;
 }
+
 
 
 
@@ -730,7 +732,7 @@ footer{
     position: relative;
     width: 100%;
     height: 200px;
-    background-color: #c9c8d8;
+    background-color: #edeaea;
     /* display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -829,7 +831,6 @@ footer .right-side .email span{
     padding-bottom: 0px;
     padding: 0px 2px 5px ;
     font-size: 70%;
-    background: #c9c8d8;
     display: block;
     color: black;
 }

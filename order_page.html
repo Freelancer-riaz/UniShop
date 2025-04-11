@@ -4,8 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bangla Bazzar Order Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order_page.css">
 </head>
 <body>
-    <h1>loading</h1>
+    <!-- header -->
+    <div id="header"></div>
+    
+    <!-- product details -->
+    <div class="product-details-area">
+        <h2 id="prd-datails">Work hard, stay strong, never give up.</h2>
+        <div class="img-p-pp-area">
+        <img src="product-img/man-t2.png" id="prd-img" alt="">
+        <p id="prt-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta ut quae aut minus. Facere, voluptas.</p>
+        <section id="p-size-card">
+        <div class="price">
+            <section id="size-section">
+                <div class="pp1">
+                    <span id="regu-price">Regular Price: <h3>500Tk</h3></span> 
+                </div>
+                <div class="pp2">
+                    <span id="dis-price">Discount Price:  <h3>420Tk</h3></span>
+                </div>
+            </section>
+                <div class="size-selection">
+                    <span>Size : </span>
+                    <input type="radio" name="size" id="m-size">
+                    <label for="m-size">M</label>
+
+                    <input type="radio" name="size" id="l-size">
+                    <label for="l-size">L</label>
+
+                    <input type="radio" name="size" id="xl-size">
+                    <label for="xl-size">XL</label>
+
+                    <input type="radio" name="size" id="xxl-size">
+                    <label for="xxl-size">XXL</label>
+                </div>
+        </div>
+
+        <div class="add-cart-order resp-add-cart-order">
+            <a href=""><button id="add-cart">Add To Cart</button></a>
+            <a href=""><button id="order-now">Order Now</button></a>
+        </div>
+        </section>
+        </div>
+
+        
+        
+        <div class="discription">
+            <h3>Discription <img src="img/down-arrow.png" alt=""></h3>
+            <p>
+<span>নাম:</span> Unic বাংলা থিম পুরুষদের টি-শার্ট,<br>
+<span>সাইজ:</span> S, M, L, XL (প্রয়োজন অনুযায়ী সাইজ পছন্দ করা যাবে) <br>
+<span>ব্র্যান্ড:</span> Unic Wear <br>
+<span>ক্লাস্টিক ফ্যাব্রিক:</span> ১০০% কটন, আরামদায়ক এবং শ্বাস-প্রশ্বাসযোগ্য <br>
+<span>ডিজাইন:</span> শার্টটির কেন্দ্রে "Unic" শব্দটি স্টাইলিশ বাংলা ফন্টে লেখা এবং চারপাশে ঐতিহ্যবাহী বাংলা মোটিফের ডিজাইন রয়েছে। <br>
+<span>কালার:</span> dark নীল, লাল, সোনালী (ভিন্ন ভিন্ন কম্বিনেশন) <br>
+<span>স্টাইল:</span> ক্যাজুয়াল, আধুনিক এবং সংস্কৃতির সাথে সম্পৃক্ত <br>
+<span>দ্বারা তৈরি:</span> কটন ফ্যাব্রিক যা গরমে খুব আরামদায়ক এবং হালকা। <br><br>
+
+<span id="last-p">
+    এই টি-শার্টটি তরুণ এবং ফ্যাশনপ্রেমী পুরুষদের জন্য একদম পারফেক্ট, যারা তাদের বাংলা সংস্কৃতির প্রতি ভালোবাসা প্রকাশ করতে চান।
+</span>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Relatade Area -->
+    <div class="related-area">
+        <h1 id="title">Related</h1>
+        <div class="related-pdt">
+            <div class="related-prd1">
+                <h1>16%-</h1>
+                <a href="" id="rdt-prd">
+                    <img src="product-img/man-t1.png" alt="">
+                    </a>
+                <span id="main">1520Tk</span>
+                <span id="discount">1276Tk</span>
+            </div>
+    
+            <div class="related-prd2">
+                <h1>16%-</h1>
+                <a href="" id="rdt-prd">
+                    <img src="product-img/man-t3.png" alt="">
+                    </a>
+                <span id="main">1520Tk</span>
+                <span id="discount">1276Tk</span>
+            </div>
+    
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+    <script src="script.js"></script>
 </body>
 </html>
