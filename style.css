@@ -211,9 +211,9 @@ header .header-info .form-class #toggle-search:checked ~ .fa-cart-plus{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     padding: 5px 8px;
-    color: black;
-    background-color: rgb(27, 198, 198);
-    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 81, 134);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, .5),
     -5px -5px 15px rgba(255, 255, 255, .5);
@@ -236,9 +236,9 @@ header .header-info .form-class #toggle-search:checked ~ .fa-cart-plus{
 
 
 .main-side-bar .list ul li a:hover{
-    background-color: rgb(30, 67, 233);
-    color: white;
-    border: 1px solid white;
+    background-color: rgb(5, 238, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     transform: scale(1);
 }
 

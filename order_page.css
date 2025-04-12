@@ -21,6 +21,8 @@
     background-color: #f9f6f6;
     margin-bottom: 10px;
     box-shadow: 5px 5px 20px rgba(58, 54, 54, 0.9);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .product-details-area .img-p-pp-area #prd-img{
     width: 100%;
