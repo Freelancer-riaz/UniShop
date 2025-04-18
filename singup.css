@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continar{
+    width: 80%;
+    height: 100vh;
+    margin: 0px auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+.continar .full-form{
+    width: 60%;
+    background-color: rgb(236, 236, 236);
+    /* text-align: center; */
+    display: inline-block;
+    position: absolute;
+    border: 2px solid rgba(172, 172, 172, 0.466);
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(26, 110, 121, 0.5),
+    -5px -5px 15px rgba(59, 59, 59, 0.6);
+
+}
+.continar .full-form h2{
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+    color: rgb(44, 161, 161);
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgba(172, 172, 172, 0.466);
+}
+
+.continar .full-form .only-form{
+    text-align: center;
+}
+.continar .full-form .only-form input{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.continar .full-form .only-form input:focus{
+    box-shadow: inset 5px 5px 20px rgba(96, 223, 240, 0.5),
+    inset -5px -5px 20px rgba(94, 221, 238, 0.5);
+}
+.continar .full-form .only-form #first-name,
+.continar .full-form .only-form #last-name{
+    width: 45%;
+}
+.continar .full-form .only-form #gender{
+    width: 90%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.continar .full-form .only-form #gender option{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.continar .full-form .only-form #gender option[disabled]{
+    color: rgb(179, 179, 179);
+}
+.continar .full-form .only-form a{
+    text-decoration: none;
+}
+.continar .full-form .only-form a h3{
+    text-align: left;
+    margin-left: 6%;
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+.continar .full-form .only-form a h3:hover{
+    text-decoration: underline;
+}
+
+.continar .full-form .only-form #submit{
+    background-color: rgb(44, 161, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    border: 1px solid black;
+}
+.continar .full-form .only-form #submit:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.continar .full-form .only-form #submit:focus{
+    box-shadow: none;
+}
+
+.continar .full-form .only-form p{
+    text-align: left;
+    margin-left: 6%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: rgb(110, 109, 109);
+    margin-bottom: 20px;
+}
+
+.continar .full-form .only-form p a{
+    font-size: 13px;
+    color: blueviolet;
+}
+.continar .full-form .only-form p a:hover{
+    text-decoration: underline;
+}

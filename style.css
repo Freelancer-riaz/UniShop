@@ -126,6 +126,7 @@ header .header-info .form-class .fa-user-plus{
     right: 35px;
     transform: scale(1);
     transition: .5s;
+    color: black;
 }
 header .header-info .form-class .fa-cart-plus{
     position: absolute;

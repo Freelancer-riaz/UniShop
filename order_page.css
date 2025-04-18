@@ -253,7 +253,7 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .3);
     transform: scale(.95);
 }
-.related-area div h1{
+.related-area .related-pdt h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     background: rgba(34,193,195,.8);
@@ -266,7 +266,7 @@
     border-top-right-radius: 9px;
     z-index: 1;
 }
-.related-area div img{
+.related-area .related-pdt img{
     width: 100%;
     height: 90;
 }
@@ -284,9 +284,9 @@
 }
 
 /* top sells hover effect */
-.related-area div:hover{
+.related-area .related-pdt div:hover{
     transform: scale(1);
-    background-color: #ece8e8;
+    background-color: #e2e1e1e0;
 }
 
 
