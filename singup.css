@@ -16,6 +16,8 @@
 }
 
 
+
+
 .continar .full-form{
     width: 80%;
     height: 500px;
@@ -30,6 +32,23 @@
     align-items: center;
 
 }
+
+@media (min-width: 720px) and (max-width: 975px){
+    .continar .full-form{
+        width: 60% !important;
+    }
+}
+@media (min-width: 975px) and (max-width: 1275px){
+    .continar .full-form{
+        width: 40% !important;
+    }
+}
+@media (min-width: 1275px) and (max-width: 1500px){
+    .continar .full-form{
+        width: 35% !important;
+    }
+}
+
 .continar .full-form h2{
     font-size: medium;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -61,7 +80,7 @@
 }
 .continar .full-form .only-form #gender{
     width: 90%;
-    padding: 5px;
+    padding: 10px;
     outline: none;
     border: none;
     border-radius: 5px;
