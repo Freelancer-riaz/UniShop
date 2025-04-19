@@ -71,8 +71,9 @@
     border-radius: 5px;
 }
 .continar .full-form .only-form input:focus{
-    box-shadow: inset 5px 5px 20px rgba(96, 223, 240, 0.5),
-    inset -5px -5px 20px rgba(94, 221, 238, 0.5);
+    /* box-shadow: inset 5px 5px 20px rgba(96, 223, 240, 0.5),
+    inset -5px -5px 20px rgba(94, 221, 238, 0.5); */
+    border: 1px solid rgb(9, 243, 224);
 }
 .continar .full-form .only-form #first-name,
 .continar .full-form .only-form #last-name{
