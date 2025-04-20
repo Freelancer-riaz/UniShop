@@ -21,13 +21,13 @@
 .continar .full-form{
     width: 80%;
     height: 500px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(253, 252, 252);
     display: inline-block;
     position: absolute;
     border: 2px solid rgba(172, 172, 172, 0.466);
     border-radius: 8px;
-    box-shadow: 5px 5px 15px rgba(26, 110, 121, 0.5),
-    -5px -5px 15px rgba(59, 59, 59, 0.6);
+    box-shadow: 5px 5px 15px rgba(26, 110, 121, .2),
+    -5px -5px 15px rgba(59, 59, 59, 0.2);
     display: grid;
     align-items: center;
 
@@ -56,7 +56,7 @@
     /* margin: 20px 0px; */
     color: rgb(44, 161, 161);
     padding-bottom: 3px;
-    border-bottom: 1px solid rgba(172, 172, 172, 0.466);
+    border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 .continar .full-form .only-form{
@@ -69,6 +69,7 @@
     outline: none;
     border: none;
     border-radius: 5px;
+    background-color: rgb(221, 221, 221);
 }
 .continar .full-form .only-form input:focus{
     /* box-shadow: inset 5px 5px 20px rgba(96, 223, 240, 0.5),
@@ -85,13 +86,14 @@
     outline: none;
     border: none;
     border-radius: 5px;
+    background-color: rgb(228, 228, 228);
 }
 .continar .full-form .only-form #gender option{
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .continar .full-form .only-form #gender option[disabled]{
-    color: rgb(179, 179, 179);
+    color: rgb(134, 134, 134);
 }
 .continar .full-form .only-form a{
     text-decoration: none;

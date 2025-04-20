@@ -134,6 +134,7 @@ header .header-info .form-class .fa-cart-plus{
     right: 70px;
     transform: scale(1);
     transition: .5s;
+    color: black;
 }
 
 @media (min-width: 525px) and (max-width: 1450px){
